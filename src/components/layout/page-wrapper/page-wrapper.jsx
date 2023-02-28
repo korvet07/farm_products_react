@@ -5,7 +5,7 @@ import MainPage from "../../pages/main-page/main-page";
 import { Main } from "./styles";
 
 // Обёртка для контента страниц
-function PageWrapper({ children, features }) {
+function PageWrapper({ features }) {
   return (
     <>
       <Header />
